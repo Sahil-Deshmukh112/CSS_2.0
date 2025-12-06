@@ -4,3 +4,19 @@ h1 {
 p {
     color: goldenrod;
 }
+
+#top_heading{
+    color: hotpink;
+}
+
+.secondary_heading{
+    color:chartreuse
+}
+
+#first p{
+    color: darkgreen;
+}
+
+#second p{
+    color: cadetblue;
+}

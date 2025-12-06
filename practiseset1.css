@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+}
+.Top_heading{
+    color: red;
+}
+
+#heading p{
+    color: aqua;
+}
+
+#id , .subheading{
+    color: purple;
+}
+
+#first p{
+    color: darkorange;
+}
+
+#second p{
+    color: yellow;
+}
