@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    background-color: brown;
+}
+
+#first h2{
+    color: rgba(114,31,209, 1);
+}
