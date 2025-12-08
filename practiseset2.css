@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#box1 {
+  background-color: rgb(150, 150, 232);
+}
+
+#box1 h1{
+    color: rgb(1, 19, 19 ,0.5);
+}

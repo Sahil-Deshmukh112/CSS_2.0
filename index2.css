@@ -33,6 +33,18 @@ background-color:yellowgreen;
 
 #box4{
     background-image: url(Images/Myntra.jpg);
-    height: 150px;
-    width: 370px;
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#box5{
+    background-color: red;
+    visibility: hidden;
+}
+
+#box6{
+    background-color: green;
+    visibility: visible;
 }
