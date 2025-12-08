@@ -10,3 +10,23 @@
 #first h2{
     color: rgba(114,31,209, 1);
 }
+
+.box{
+    height: 50px;
+    width: 50px;
+}
+
+#box1{
+    color: aquamarine;
+    background-color: darkblue;
+}
+
+#box2{
+color: cadetblue;
+background-color:yellowgreen;
+}
+
+#box3{
+    color: blue;
+    background-color: chartreuse;
+}
