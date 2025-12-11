@@ -1,34 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#box{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+#box {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
 }
 
-#but{
-padding: 10px 15px 10px 15px;
-margin: 100px;
-border: 1px red dotted;
-border-radius: 40px;
+#but {
+  height: 80px;
+  width: 80px;
+  padding: 10px 15px 10px 15px;
+  margin: 100px;
+  border: 1px red dotted;
+  border-radius: 40px;
+  text-align: center;
 }
 
-#box1{
-    margin: 25px;
-    padding: 15px;
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
+#box1 {
+  margin: 25px;
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
 }
 
-#box2{
-    margin: 25px;
-    padding: 15px;
-    height: 100px;
-    width: 100px;
-    background-color: gold;
-    box-sizing: border-box;
+#box2 {
+  margin: 25px;
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  box-sizing: border-box;
 }
