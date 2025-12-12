@@ -40,3 +40,15 @@
   width: 50%;
   height: 50%;
 }
+
+#one{
+  width:100vw;
+  height: 100px;
+  background-color: blue;
+}
+
+#two{
+  width: 25rem;
+  background-color: bisque;
+  height: 25%;
+}
