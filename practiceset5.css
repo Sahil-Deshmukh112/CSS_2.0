@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 20vh;
+  width: 100vw;
+  background-color: aqua;
+}
+
+#menu {
+  position: relative;
+}
+
+#main {
+  height: 70vh;
+  width: 100vw;
+  background-color: blueviolet;
+}
+
+/* #aside{
+    left: 80vw;
+    height: 70vh;
+    width: 20vw;
+    background-color: chartreuse;
+} */
+
+#footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: darkgoldenrod;
+}
+#home {
+  text-decoration: none;
+  color: black;
+}
+
+#div1 {
+  width: 50vw;
+  height: 20vh;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#div2 {
+  height: 100px;
+  margin-top: 10px;
+  width: 100px;
+  background-color: antiquewhite;
+}
+#div3 {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+#div4 {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+}
