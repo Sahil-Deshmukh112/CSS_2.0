@@ -1,44 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.heading{
-    text-align: center;
+.heading {
+  text-align: center;
 }
 
-#container{
-    margin: 25px;
-    padding: 10px;
-    height: 600px;
-    width: 1000px;
-    border: 3px solid black;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    /* justify-content: space-evenly; */
-    justify-content: space-around;
+#container {
+  margin: 25px;
+  padding: 10px;
+  height: 80vh;
+  width: 80vw;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    border: 1px solid gold;
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid gold;
 }
 
-#box1{
-    background-color: blue;
+#box1 {
+  background-color: blue;
 }
 
-#box2{
-    background-color: green;
+#box2 {
+  background-color: green;
 }
 
-#box3{
-    background-color: pink;
+#box3 {
+  background-color: pink;
 }
 
-#box4{
-    background-color: red;
+#box4 {
+  background-color: red;
+}
+
+#box5 {
+  background-color: rebeccapurple;
+}
+
+#box6 {
+  background-color: wheat;
+}
+
+#box7 {
+  background-color: teal;
+}
+
+#box8 {
+  background-color: tomato;
+}
+
+#box9 {
+  background-color: yellow;
+}
+
+#box10 {
+  background-color: indigo;
+}
+
+#box11 {
+  background-color: olive;
+}
+
+#box12 {
+  background-color: purple;
 }
