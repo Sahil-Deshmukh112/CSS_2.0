@@ -1,0 +1,20 @@
+.pseudo{
+    height: 50px;
+    width: 170px;
+    background-color: lightgreen;
+    border: 2px solid darkmagenta;
+    border-radius: 10px;
+    transition: all 1s ease-in-out 1s;
+}
+
+.pseudo:hover{
+    height: 60px;
+    width: 180px;
+    background-color: lightcoral;
+    border: 2px solid darkgreen;
+}
+ .pseudo:active{
+    height: 50px;
+    width: 170px;
+    background-color: cadetblue;
+ }
