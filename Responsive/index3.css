@@ -6,12 +6,56 @@
 html,
 body {
   height: 100%;
-  padding: 100%;
+  width: 100%;
 }
 
+#parent {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
-#parent{
-    background-color: black;
-    height: 100%;
-    width: 100%;
+#child1 {
+  background-color: palevioletred;
+  border: 2px solid white;
+}
+#child2 {
+  background-color: lightseagreen;
+  border: 2px solid white;
+}
+#child3 {
+  background-color: lightyellow;
+  border: 2px solid white;
+}
+#child4 {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgb(77, 1, 26);
+  border: 2px solid white;
+}
+#child5 {
+  background-color: mediumseagreen;
+  border: 2px solid white;
+}
+#child6 {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  justify-self: center;
+  background-color: peru;
+  border: 2px solid white;
+}
+#child7 {
+  background-color: greenyellow;
+  border: 2px solid white;
+}
+#child8 {
+  
+  background-color: violet;
+  border: 2px solid white;
 }
