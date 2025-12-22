@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* PX- Are fixed */
+
+#box {
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+}
+
+#innerbox {
+  height: 100px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+/* % take size from their parent */
+#box1 {
+  height: 40%;
+  width: 60%;
+  background-color: burlywood;
+}
+
+#innerbox1 {
+  height: 20%;
+  width: 40%;
+  background-color: brown;
+}
+/* VW-viewport width & VH - viewport height takes size from their respective parent & screen size */
+#box2 {
+  height: 40vh;
+  width: 60vw;
+  background-color: cadetblue;
+}
+
+#innerbox2 {
+  height: 20vh;
+  width: 45vw;
+  background-color: chartreuse;
+}
+/* Em - takes parent sizes while rem sizes are fixed 1rem = 16px */
+#content {
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+  font-size: 55px;
+}
+
+#content p {
+  font-size: 0.5em;
+}
+
+#content h3 {
+  font-size: 2.5rem;
+}
+/* Ch - character width per line
+lh - line height
+*/
+
+#container {
+  height: 40%;
+  width: 50%;
+  background-color: burlywood;
+}
+
+.p1 {
+  width: 50ch;
+}
+
+.p2 {
+  margin-top: 2lh;
+}
+
+.box3 {
+  height: 50vmin;
+  width: 1000vmax;
+  background-color: bisque;
+}
+
+.innerbox3 {
+  height: 35vmin;
+  width: 35vmax;
+  background-color: coral;
+}
