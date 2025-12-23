@@ -1,10 +1,29 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  background-color: black;
+}
+
+#nav{
+  display: flex;  
+}
+
+#nav1{
+  
+}
+
+#nav1 img{
+  height: 50px;
+  width: 50px;
+  display: flex;
+}
+
+#nav1 h4{
+  color: white;
 }
