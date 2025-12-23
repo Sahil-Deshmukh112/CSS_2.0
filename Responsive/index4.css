@@ -7,23 +7,47 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: black;
 }
 
-#nav{
-  display: flex;  
-}
-
-#nav1{
-  
-}
-
-#nav1 img{
-  height: 50px;
-  width: 50px;
+nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
 }
 
-#nav1 h4{
-  color: white;
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
+
+#nav1 h6{
+  font-size: 17px;
+  width: 50px;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+#nav2 h4{
+  font-size: 17px;
+}
+
+#nav1 img {
+  height: 50px;
+}
+
+.icon{
+  display: none;
+}
+
+
