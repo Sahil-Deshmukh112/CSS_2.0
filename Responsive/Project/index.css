@@ -49,6 +49,7 @@ nav {
   padding: 15px 70px;
   position: fixed;
   width: 100%;
+  background-color: var(--black);
 }
 
 #nav1 {
@@ -138,7 +139,7 @@ nav a i {
 }
 
 main {
-  padding: 100px;
+  padding-top: 100px;
 }
 
 .section1 {
@@ -171,6 +172,25 @@ main {
   margin: 30px 0;
 }
 
+.section1 .left .cta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cta button {
+  background-color: var(--green);
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.cta button:nth-child(2) {
+  background-color: var(--gray);
+}
+
 .left .price {
   font-size: 35px;
 }
@@ -184,9 +204,13 @@ main {
   font-weight: 800;
 }
 
-.section1 .right {
-  width: 45%;
+.left .price .str {
+  text-decoration: line-through;
 }
+
+/* .section1 .right {
+  width: 45%;
+} */
 
 .section1 .right .right-in {
   width: 600px;
@@ -196,15 +220,18 @@ main {
 
 .section1 .right .right-in .image {
   width: 100%;
+  height: 350px;
 }
 
 .section1 .right .right-in .image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.section1 .right .right-in  .image-btm {
+.section1 .right .right-in .image-btm {
   padding: 20px;
-  padding-top: 40;
+  padding-top: 40px;
   display: flex;
   gap: 5px;
   align-items: center;
@@ -219,4 +246,132 @@ main {
   gap: 10px;
   padding: 10px;
   border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+  .section1 .left h1 {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .section1 .left h1 {
+    font-size: 33px;
+  }
+  main {
+    padding-top: 50px;
+  }
+  .section1 .left {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section1 {
+    flex-direction: column-reverse;
+    padding: 15px 4vw;
+  }
+  .section1 .right .right-in {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .section1 .right .right-in .image {
+    width: 100%;
+    height: 50vw;
+  }
+  .section1 .right .right-in .image-btm {
+    padding: 10px;
+    padding-top: 20px;
+    gap: 8px;
+  }
+  .right-in .image-btm h4 {
+    background-color: #151515;
+    width: 45%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .right-in .image-btm h4 {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 3vw;
+  }
+  .left .price .lgray {
+    font-size: 3vw;
+    font-weight: 800;
+  }
+  .section1 .left .tags h4 {
+    padding: 7px 15px;
+    border-radius: 4px;
+    white-space: nowrap;
+    background-color: var(--gray);
+  }
+  .section1 .left .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .cta button {
+    background-color: var(--green);
+    padding: 15px 0px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+
+  .cta button:nth-child(2) {
+    background-color: var(--gray);
+  }
+
+  .left .price {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .section1 .left h1 {
+    font-size: 5vw;
+  }
+}
+
+.section2 {
+  padding: 100px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section2 h1 {
+  font-family: helvatica;
+  font-size: 150px;
+  background-image: url(./Images/Back);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+}
+.section2 h1.bloom {
+  position: absolute;
+  filter: blur(80px);
+}
+
+.section2 h3 {
+  font-size: 45px;
+  font-family: helvatica;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+@media (max-width: 900px) {
+  .section2 h1 {
+    font-size: 15vw;
+    white-space: nowrap;
+  }
+  .section2 h3 {
+    font-size: 4vw;
+    text-align: center;
+  }
 }
