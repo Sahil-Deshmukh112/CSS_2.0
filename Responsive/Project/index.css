@@ -207,8 +207,16 @@ main {
   padding-top: 40;
   display: flex;
   gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--gray);
 }
 
 .right-in .image-btm h4 {
-  background-color: var(--gray);
+  background-color: #151515;
+  width: 45%;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
