@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 @font-face {
-    font-family: neue;
-    src: url(./Font/NeueMachina-Regular_DQCmjH1st.ttf);
+  font-family: neue;
+  src: url(./Font/NeueMachina-Regular_DQCmjH1st.ttf);
 }
 
 @font-face {
-    font-family: neue;
-    src: url(./Font/NeueMachina-Regular_DQCmjH1st.ttf);
+  font-family: helvatica;
+  src: url(./Font/HelveticaNowDisplay-Regular_5Mzhp8KlA8_CAVTbnsPOM.woff2);
 }
 * {
   margin: 0px;
@@ -35,8 +35,9 @@ nav {
 
 #nav1 {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 20px;
+  font-family: helvatica;
 }
 
 #nav1 img {
@@ -44,22 +45,24 @@ nav {
 }
 
 #nav h4 {
-  font-family: neue;
-  font-size: 20px;
+  font-family: helvatica;
+  font-size: 18px;
+  line-height: 1.3;
   font-weight: 100;
 }
 
 #nav2 {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 #nav2 a {
   text-decoration: none;
   /* font-family: monospace; */
-  font-family: "Comic Neue", cursive;
-  font-size: 20px;
+  /* font-family: "Comic Neue", cursive; */
+  font-family: helvetica;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -68,4 +71,3 @@ nav {
   width: 25px;
   border-radius: 50%;
 }
-
